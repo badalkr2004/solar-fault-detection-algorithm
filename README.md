@@ -141,12 +141,7 @@ docker-compose up --build
 
 ## 📊 Usage
 
-### API Endpoints
 
-- `POST /api/detect-fault` - Detect faults in solar panel data
-- `GET /api/health` - Health check endpoint
-- `POST /api/generate-synthetic` - Generate synthetic data
-- `GET /api/models` - List available models
 
 ### Example API Request
 
@@ -174,13 +169,7 @@ Run tests with:
 python -m pytest tests/ -v
 ```
 
-## 📈 Model Performance
 
-The system includes multiple ML models:
-- **Random Forest**: For general fault classification
-- **Neural Networks**: For complex pattern recognition
-- **Anomaly Detection**: For identifying unusual patterns
-- **Time Series Models**: For trend analysis
 
 ## 🔧 Configuration
 
